@@ -1,24 +1,25 @@
 body {
     height: 100vh;
-    background-image: url('home/background-home-desktop.jpg');
+    background-image: url('home/background-home-desktop.jpg'); 
     background-size: cover;
-    background-repeat: no-repeat;
-    /* background-color: aquamarine; */
-    /* background-image: url('assets/home/background-home-desktop.jpg'); */
+    background-repeat: no-repeat;  
+}
+body.moon {
+    background-image: url('destination/background-destination-desktop.jpg');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
 .main {
     display: flex;
-    /* width: 100vw;
-                        height: 100vh; */
     flex-direction: column;
-    /* margin-left: 48px; */
+    
 }
 
 .navbar_container {
-    /* width: 100vw; */
+    
     height: 50px;
-    /* background-color: aqua; */
+    
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -28,7 +29,7 @@ body {
 .main_content {
     width: 100vw;
     height: 90vh;
-    /* background-color: bisque; */
+
 
 
 }
@@ -43,10 +44,9 @@ body {
     width: 50%;
     height: 200px;
     margin-left: 100px;
-    /* background-color: blueviolet; */
+
 }
 
-.stg,
 .stg .text1 {
     
     color: #D0D6F9;
@@ -61,7 +61,6 @@ body {
 .stg .text2 {
     margin-top: 10px;
     margin: left 50px;
-    ;
     color: #FFF;
     font-family: Bellefair;
     font-size: 150px;
@@ -130,13 +129,15 @@ body {
     float: right;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
-    padding-right: 25px;
+    padding-right: 5px;
+
+
     
 }
 
 .meniu li {
     float: left;
-     margin-left: 105px;
+     margin-left: 199px;
     
 
 }
@@ -145,16 +146,52 @@ body {
     margin-top: 15px;
     list-style: none;
     
-
+    
 
 }
 
 .meniu a {
-    color: black;
+    color:rgba(255, 255, 255, 1);
     text-decoration: none;
+    font-size: 25px;
+    
+    
+    
 }
 
 .meniu div:hover {
+
+    height: 25px;
+    border-bottom: 1px solid orange;
+}
+.meniu1{ 
+    z-index: 1;
+    margin-top: 50px;
+    height: 80px;
+    float: right;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    padding-right: 25px;
+}
+.meniu1 li {
+    float: left;
+     margin-left: 194px;
+}
+
+.meniu1 ul {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.meniu1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:  Barlow Condensed;
+    
+}
+
+.meniu1 div:hover {
 
     height: 25px;
     border-bottom: 1px solid orange;
@@ -185,14 +222,48 @@ body {
 }
 
 div.layout1 .left {
-    background-color: red;
-    width: 200px;
+    /* background-color: red;  */
+    width: 700px;
+    height: 700px;
+    flex-shrink: 0;
+}
+div.right{
+    margin-top: 200px;
+    width: 445px;
+    height: 472px;
+    flex-shrink: 0;
+    float: right;
+    background-color: aqua;
+    margin-left: 963px; 
+}
+.layout1 h1{         
+ 
+ color: #FFF;
+ font-family: Barlow Condensed;
+ font-size: 25px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ letter-spacing: 4.725px;
+ text-transform: uppercase;
+ display: flex;
+ margin-left: 60px;
+ margin-top: 30px;
+ 
 }
 
-div.layout1 .right {
-    background-color: blue;
-    width: 500px;
-
+.destination ul {
+     padding-left: 892px;
+     margin: top 10px;
+     width: 445px;
+     height: 472px;
+     flex-shrink: 0;
+     width: 285.5px;
+     height: 34px;
+    list-style: none
+}
+.destination li{
+    color: white;
 }
 
 .layout2 {
@@ -202,18 +273,18 @@ div.layout1 .right {
 }
 
 div.layout2 .left {
-    background-color: black;
+    /* background-color: black; */
     width: 300px;
 }
 
 div.layout2 .right {
-    background-color: blue;
+    /* background-color: blue; */
     width: 500px;
 }
 
 .div {
-    color: red;
-    background-color: #0B0D17;
+    /* color: red; */
+    background-color:green;
 }
 
 .nav2 a {
@@ -233,4 +304,14 @@ div.layout2 .right {
 
 .nav2 button.select {
     background-color: white;
+}
+.photo1 {
+    background-image: url('destination/image-moon.webp');
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    /* flex-shrink: 0; */
+    margin-top: 130px;
+    margin-left: 171px;
+
 }
