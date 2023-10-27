@@ -32,6 +32,10 @@ body {
 
 
 }
+.logo{
+    margin-top: 50px;
+    padding-left: 30px;
+}
 
 
 
@@ -42,8 +46,9 @@ body {
     /* background-color: blueviolet; */
 }
 
+.stg,
 .stg .text1 {
-    /* margin-top: 100px; */
+    
     color: #D0D6F9;
     font-family: Barlow Condensed;
     font-size: 28px;
@@ -54,7 +59,7 @@ body {
 }
 
 .stg .text2 {
-    margin-top: 150px;
+    margin-top: 10px;
     margin: left 50px;
     ;
     color: #FFF;
@@ -68,11 +73,13 @@ body {
 .stg .text3 {
     color: #D0D6F9;
     font-family: Barlow;
-    font-size: 18px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-    width: 444px;
+    line-height: 20px;
+    width: 380px;
+    letter-spacing: 1px;
+    word-spacing: 1px;;
 }
 
 .dr {
@@ -84,6 +91,7 @@ body {
     border-radius: 274px;
     background: #FFF;
     color: #0B0D17;
+    margin-left: 150px;
 
     font-family: Bellefair;
     font-size: 32px;
@@ -122,17 +130,21 @@ body {
     float: right;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
+    padding-right: 25px;
+    
 }
 
 .meniu li {
     float: left;
-    margin-left: 80px;
+     margin-left: 105px;
+    
 
 }
 
 .meniu ul {
     margin-top: 15px;
     list-style: none;
+    
 
 
 }
@@ -157,10 +169,11 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 
 .page1 {
-    margin-top: 250px;
+    margin-top: 200px;
     display: flex;
 
 }
