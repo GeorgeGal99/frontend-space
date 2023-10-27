@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-image: url('assets/home/background-home-desktop.jpg');
+    background-image: url('home/background-home-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: aquamarine; */
@@ -33,11 +33,7 @@ body {
 
 }
 
-.page1 {
-    margin-top: 250px;
-    display: flex;
 
-}
 
 .stg {
     width: 50%;
@@ -161,4 +157,67 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.page1 {
+    margin-top: 250px;
+    display: flex;
+
+}
+
+.layout1 {
+    margin-top: 250px;
+    display: flex;
+
+}
+
+div.layout1 .left {
+    background-color: red;
+    width: 200px;
+}
+
+div.layout1 .right {
+    background-color: blue;
+    width: 500px;
+
+}
+
+.layout2 {
+    margin-top: 250px;
+    display: flex;
+
+}
+
+div.layout2 .left {
+    background-color: black;
+    width: 300px;
+}
+
+div.layout2 .right {
+    background-color: blue;
+    width: 500px;
+}
+
+.div {
+    color: red;
+    background-color: #0B0D17;
+}
+
+.nav2 a {
+    text-decoration: none;
+}
+
+.nav2 button {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-top: 2px;
+    margin-left: 15px;
+    background-color: #646464;
+    border: none;
+    border-radius: 50%;
+}
+
+.nav2 button.select {
+    background-color: white;
 }
