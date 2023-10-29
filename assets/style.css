@@ -12,6 +12,26 @@ body.moon {
      background-size: cover;    
       background-position: top;
  }
+ body.mars{
+background-image:url('destination/background-destination-desktop.jpg') ;
+    background-attachment: fixed;    
+     background-size: cover;    
+      background-position: top;
+ }
+ body.Europa{
+    background-image:url('destination/background-destination-desktop.jpg') ;
+    background-attachment: fixed;    
+     background-size: cover;    
+      background-position: top;
+ }
+ body.Titan{
+    background-image:url('destination/background-destination-desktop.jpg') ;
+    background-attachment: fixed;    
+     background-size: cover;    
+      background-position: top;
+
+ }
+
 
 
 .main {
@@ -243,11 +263,11 @@ letter-spacing: 2.7px;
 .layout1 {
     margin-top: 250px;
     display: flex;
-
+    
 }
 
 div.layout1 .left {
-    
+
      width: 700px;
      height: 700px;
     flex-shrink: 0;
@@ -299,7 +319,7 @@ width: 444px;
     letter-spacing: 4.725px;
     text-transform: uppercase;
     display: flex;
-    margin-left: 60px;
+    margin-left: 250px;
     margin-top: 30px;
 
 }
@@ -331,44 +351,7 @@ text-decoration: none;
 
 }
 
-
-.layout2 {
-    margin-top: 250px;
-    display: flex;
-
-}
-
-div.layout2 .left {
-     background-color: black; 
-    width: 300px;
-}
-
-div.layout2 .right {
-     background-color: blue; 
-    width: 500px;
-}
-
-.div {
-    color: red; 
-    background-color: green;
-}
-
-.nav2 a {
-    text-decoration: none;
-}
-
-.nav2 button {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    margin-top: 2px;
-    margin-left: 15px;
-    background-color: #646464;
-    border: none;
-    border-radius: 50%;
-}
-
-.nav2 button.select {
+.nav2 button.select { 
     background-color: white;
 }
 
@@ -380,6 +363,34 @@ div.layout2 .right {
     flex-shrink: 0; 
     margin-top: 130px;
     margin-left: 171px;
+
+}
+.mars1{
+    background-image: url('destination/image-mars.webp');
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    flex-shrink: 0; 
+    margin-top: 130px;
+    margin-left: 250px;
+}
+.europa1{
+    background-image: url('destination/image-europa.png');
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    flex-shrink: 0; 
+    margin-top: 130px;
+    margin-left: 250px; 
+}
+.titan1{
+    background-image: url('destination/image-titan.png');
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    flex-shrink: 0; 
+    margin-top: 130px;
+    margin-left: 250px; 
 
 }
 .right .line1 {
