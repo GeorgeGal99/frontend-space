@@ -346,9 +346,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 2.7px;
-padding: 35px;
+padding: 0px 0px 5px 0px;
 text-decoration: none;
 
+}
+.destination  li {
+ margin:0px 35px 35px 35px;
 }
 
 .nav2 button.select { 
