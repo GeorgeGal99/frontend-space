@@ -197,6 +197,14 @@ body.Titan {
 .meniu span {
     color: #FFF;
 }
+.meniu1 a span{ 
+    color: #FFF;
+}
+.layout1 span{
+
+    color: hsla(0, 2%, 60%, 0.829);
+}
+
 
 .meniu1 {
     z-index: 1;
@@ -205,21 +213,22 @@ body.Titan {
     float: right;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
-    padding-right: 25px;
 }
 
 .meniu1 li {
     float: left;
-    margin-left: 194px;
+    margin-left: 110px;
 }
 
 .meniu1 ul {
     margin-top: 15px;
+    margin-right: 60px;
     list-style: none;
+    
 }
 
 .meniu1 a {
-    color: #FFF;
+    color: rgb(160, 151, 151);
     font-family: Barlow Condensed;
     font-size: 20px;
     font-style: normal;
@@ -326,18 +335,18 @@ div.layout1 .left {
 
     color: #FFF;
     font-family: Barlow Condensed;
-    font-size: 25px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 4.725px;
+    word-spacing: 10px;
     text-transform: uppercase;
     display: flex;
-    margin-left: 250px;
+    margin-left: 180px;
     margin-top: 30px;
 
 }
-
 
 .destination {
     margin-right: 10px;
@@ -381,6 +390,7 @@ div.layout1 .left {
     margin-left: 171px;
 
 }
+
 
 .mars1 {
     background-image: url('destination/image-mars.webp');
@@ -515,9 +525,9 @@ div.layout1 .left {
 
 .destination a:hover {
 
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid rgb(60, 255, 0);
 }
 
-/* @media screen and (max-width:800px){ */
+ @media screen and (
+    min-width: 1200 px){}
     
-/* } */
