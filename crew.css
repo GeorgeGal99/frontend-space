@@ -86,6 +86,10 @@ body.Crew{
     display: flex;
 
 }
+.layout2 span{
+    color: #ffffff;
+    opacity: 0.25;
+}
 
 .layout2 .left {
      /* background-color:orange;  */

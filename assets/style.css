@@ -73,7 +73,7 @@ body.Titan {
     margin-top: 180px;
     width: 50%;
     height: 200px;
-    margin-left: 100px;
+    margin-left: 200px;
 
 }
 
@@ -529,5 +529,5 @@ div.layout1 .left {
 }
 
  @media screen and (
-    min-width: 1200 px){}
+    min-width: 768 px){}
     
