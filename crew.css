@@ -1,9 +1,17 @@
-body.Crew{
+body.Crew {
     height: 100vh;
     background-image: url('assets/crew/background-crew-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+body.space {
+    height: 100vh;
+    background-image: url('assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .main {
     display: flex;
