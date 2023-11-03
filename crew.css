@@ -149,9 +149,28 @@ body.space {
     flex-shrink: 0;
 }
 .photo5 {
-    background-image: url('assets/crew/image-anousheh-ansari.webp');
-    background-repeat: no-repeat;
+     background-image: url('assets/crew/image-anousheh-ansari.webp');
+     background-repeat: no-repeat;
      margin-top: 130px; 
+     margin-left: 80px; 
+     width: 552px;
+     height: 858px;
+     flex-shrink: 0;
+}
+.layout3 .rightspace{
+    color: #FFF;
+    width: 1648px;
+    /* height: 1098.667px; */
+    flex-shrink: 0;
+    margin-left: 94.2rem; 
+}
+.layout.leftspace {
+
+}
+.photospace1{
+    background-image: url('assets/technology/image-launch-vehicle-portrait.jpg');
+    background-repeat: no-repeat;
+     margin-top: 5px; 
      margin-left: 80px; 
      width: 568.072px;  
       height: 712px; 
