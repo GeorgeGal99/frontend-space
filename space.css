@@ -1,0 +1,207 @@
+body{
+background-image:url('assets/technology/background-technology-desktop.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.navbar_container {
+
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.main_content {
+    width: 100vw;
+    height: 90vh;
+}
+
+.logo {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.linie {
+    width: 500px;
+    height: 30px;
+    max-width: 600px;
+    margin-left: 200px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.linie hr {
+    margin-left: 30px;
+    overflow: visible;
+    width: 500px;
+    height: 1px;
+    opacity: 0.2515;
+    background: #FFF; 
+    
+}
+
+.meniu {
+    z-index: 1;
+    margin-top: 50px;
+    height: 80px;
+    float: right;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+
+}
+
+.meniu li {
+    float: left;
+    margin-left: 190px;
+}
+
+.meniu ul {
+    margin-top: 15px;
+    list-style: none;
+
+}
+
+.meniu a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.meniu div:hover {
+
+    height: 25px;
+    border-bottom: 1px solid orange;
+}
+
+.titlu {
+ color: #FFF;
+font-family: Barlow Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.725px;
+padding-left: 18%;
+margin-top: 90px;
+display: flex;
+max-width: 20%;
+}
+
+.p5 span {
+color:rgb(126, 124, 124);
+font-family: Barlow Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 4.725px;
+}
+.button a span {
+    font-size: 28px;
+}
+
+.button {
+
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-left: 16%;
+    max-width: 17%;
+    justify-content: center;
+
+
+}
+
+.button1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 25px;
+    transition:background-color 0.3s; 
+    background-color: white;
+    color:black;
+}
+
+.text {
+    color: #FFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 450px;
+padding-left: 25%;
+margin-top: -18%;
+
+}
+
+.text h1{
+color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+width: 420px;
+}
+.text h2 {
+
+color: #FFF;
+font-family: Bellefair;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 420px;
+
+}
+
+.text p {
+
+    color: #D0D6F9;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+text-transform: none;
+width: 400px;
+}
+.imagine {
+
+width: 552px;
+height: 740px;
+flex-shrink: 0;
+margin-left: 66%;
+margin-top: -21%; 
+display:flex;
+
+}
+.imagine1 {
+    width: 552px;
+height: 740px;
+flex-shrink: 0;
+margin-left: 66%;
+margin-top: -21%; 
+display:flex;
+}
+
+.imagine2 {
+ width: 552px;
+ height: 740px;
+ flex-shrink: 0;
+ margin-left: 66%;
+ margin-top: -21%; 
+ display:flex;
+}
+

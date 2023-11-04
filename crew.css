@@ -47,7 +47,7 @@ body.space {
 }
 
 .linie hr {
-     margin-left: 30px;
+    margin-left: 30px;
     overflow: visible;
     width: 500px;
     height: 1px;
@@ -100,7 +100,6 @@ body.space {
 }
 
 .layout2 .left {
-     /* background-color:orange;  */
      width: 300px; 
     margin-left: 300px;
     display: flex; 
@@ -115,7 +114,6 @@ body.space {
 }
 
 .layout2 .right {
-    /* background-color: blue;   */
     width: 600px;
     height: 630px; 
      margin-left: 500px; 
@@ -140,13 +138,13 @@ body.space {
     flex-shrink: 0;
 }
 .photo4 {
-    background-image: url('assets/crew/image-victor-glover.webp');
-    background-repeat: no-repeat;
+     background-image: url('assets/crew/image-victor-glover.webp');
+     background-repeat: no-repeat;
      margin-top: 130px; 
      margin-left: 80px; 
      width: 568.072px;  
       height: 712px; 
-    flex-shrink: 0;
+     flex-shrink: 0;
 }
 .photo5 {
      background-image: url('assets/crew/image-anousheh-ansari.webp');
@@ -157,44 +155,46 @@ body.space {
      height: 858px;
      flex-shrink: 0;
 }
-.layout3 .rightspace{
-    color: #FFF;
-    width: 1648px;
-    flex-shrink: 0;
-    margin-left: 94.2rem; 
+.layout3 { 
+    margin-top: 100px;
+    display: flex;
 }
-.layout3 .leftspace {
+ .rightspace {
+    color: #FFF;
+     width: 648px;
+    flex-shrink: 0;
+     /* margin-left: 94.2rem; */
+}
+.leftspace {
         background-color:orange; 
-        width: 350px; 
-        margin-left: 300px;
+        width: 550px; 
         display: flex; 
-        margin-top: 300px;
         height: 412px; 
         flex: shrink 0;
         flex-direction: column;
         align-items:start;
-        justify-content: end;
+        justify-content:flex-end;
         display: flex;
 
 }
 .photospace1{
     background-image: url('assets/technology/image-launch-vehicle-portrait.jpg');
     background-repeat: no-repeat;
-    margin-top: 5px; 
-    margin-left: 80px; 
+    margin-top: 200px; 
+    margin-left: 500px;  
     width: 568.072px;  
     height: 500px;
     flex-shrink: 0;
 }
 .p1{ 
     color: #FFF;
-font-family: Bellefair;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-opacity: 0.5042;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.5042;
 }
 .p2{ 
     color: #FFF;
@@ -240,7 +240,7 @@ text-transform: uppercase;
     margin-top: 50px;
 
 }
- .button a { 
+    .button a { 
     text-decoration: none; 
     /* align-items:start;   */
     display: block;
@@ -251,7 +251,7 @@ text-transform: uppercase;
 
 }
 
-   .button li{ 
+    .button li{ 
     display: inline-block;
     height: 15px;
     width: 15px;
@@ -266,39 +266,50 @@ text-transform: uppercase;
 .navbarspace {
     color: aqua;
     margin-top:200px;
-    width: 50px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
+    margin-right:50px;
 
 }
 
-     .buttonspace li{ 
-        display: flex;
+        .buttonspace li{ 
         height: 50px;
         width: 60px;
+        font-size: 30px;
         justify-content: center;
-        margin-top: 2px;
-        margin-left: 50px;
-        background-color: white;
+        margin-top: 100px;
+        margin-left:0px; 
+        background-color:white;
         border: none;
-        border-radius: 50%; 
-        text-decoration: #646464;
+        border-radius: 50%;
+        display:flex
     
 } 
-.button li:hover{
-    background-color: white;
+.buttonspace ul {
+    margin-top: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
 }
-.button {
-    padding: 0px;
+ .button li:hover{ 
+   background-color: white; 
+}
+ .button { 
+    padding: 10px;
 }
 
-.p4 {
+.p4 { 
+    width: 300px;
+    height: 50px;
     color: #FFF;
-font-family: Barlow Condensed;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 4.725px;
+    font-family: Barlow Condensed;
+    font-size: 28px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    padding-left: 100px;
 }
 .p5 {
     color: #FFF;
@@ -308,6 +319,7 @@ letter-spacing: 4.725px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 4.725px;
+    padding-left: 30px;
 }
 .p6 {
     color: #FFF;
