@@ -157,32 +157,23 @@ body.Titan {
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
 
-
-
-
 }
 
 .meniu li {
     float: left;
     margin-left: 110px;
-
-
 }
 
 .meniu ul {
     margin-top: 15px;
     margin-right: 60px;
     list-style: none;
-
 }
 
 .meniu a {
     color: rgb(150, 148, 148);
     text-decoration: none;
     font-size: 25px;
-
-
-
 }
 
 .meniu div:hover {
@@ -201,7 +192,6 @@ body.Titan {
 
     color: hsla(0, 2%, 60%, 0.829);
 }
-
 
 .meniu1 {
     z-index: 1;
@@ -282,7 +272,7 @@ body.Titan {
 
 }
 
-div.layout1 .left {
+.layout1 .left {
 
     width: 700px;
     height: 700px;
@@ -584,6 +574,9 @@ div.layout1 .left {
     margin-right: 7.5rem;
     margin-bottom: 7.5rem;
 }
+
+
+
 
 }
 
