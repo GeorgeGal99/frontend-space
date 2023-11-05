@@ -12,28 +12,28 @@ body {
 body.moon {
 
     background-image: url('destination/background-destination-desktop.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: top;
 }
 
 body.mars {
     background-image: url('destination/background-destination-desktop.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: top;
 }
 
 body.Europa {
     background-image: url('destination/background-destination-desktop.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: top;
 }
 
 body.Titan {
     background-image: url('destination/background-destination-desktop.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: top;
 
@@ -44,7 +44,7 @@ body.Titan {
 .main {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    
 }
 
 .navbar_container {
@@ -60,9 +60,6 @@ body.Titan {
 .main_content {
     width: 100vw;
     height: 90vh;
-
-
-
 }
 
 .logo {

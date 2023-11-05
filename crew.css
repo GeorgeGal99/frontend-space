@@ -155,37 +155,8 @@ body.space {
      height: 858px;
      flex-shrink: 0;
 }
-.layout3 { 
-    margin-top: 100px;
-    display: flex;
-}
- .rightspace {
-    color: #FFF;
-     width: 648px;
-    flex-shrink: 0;
-     /* margin-left: 94.2rem; */
-}
-.leftspace {
-        background-color:orange; 
-        width: 550px; 
-        display: flex; 
-        height: 412px; 
-        flex: shrink 0;
-        flex-direction: column;
-        align-items:start;
-        justify-content:flex-end;
-        display: flex;
 
-}
-.photospace1{
-    background-image: url('assets/technology/image-launch-vehicle-portrait.jpg');
-    background-repeat: no-repeat;
-    margin-top: 200px; 
-    margin-left: 500px;  
-    width: 568.072px;  
-    height: 500px;
-    flex-shrink: 0;
-}
+
 .p1{ 
     color: #FFF;
     font-family: Bellefair;
@@ -263,80 +234,15 @@ text-transform: uppercase;
     text-decoration: #646464;
     
 }
-.navbarspace {
-    color: aqua;
-    margin-top:200px;
-    width: 100px;
-    height: 100px;
-    margin-right:50px;
 
+.button li:hover{ 
+background-color: white; 
 }
-
-        .buttonspace li{ 
-        height: 50px;
-        width: 60px;
-        font-size: 30px;
-        justify-content: center;
-        margin-top: 100px;
-        margin-left:0px; 
-        background-color:white;
-        border: none;
-        border-radius: 50%;
-        display:flex
-    
-} 
-.buttonspace ul {
-    margin-top: 200px;
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-
-}
- .button li:hover{ 
-   background-color: white; 
-}
- .button { 
+    .button { 
     padding: 10px;
 }
 
-.p4 { 
-    width: 300px;
-    height: 50px;
-    color: #FFF;
-    font-family: Barlow Condensed;
-    font-size: 28px; 
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    padding-left: 100px;
-}
-.p5 {
-    color: #FFF;
-    font-family: Barlow Condensed;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    padding-left: 30px;
-}
-.p6 {
-    color: #FFF;
-font-family: Bellefair;
-font-size: 56px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.p7{
-    color: #D0D6F9;
-font-family: Barlow;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 177.778% */
-}
+
 
 
 @media screen and (min-width: 768px) {
