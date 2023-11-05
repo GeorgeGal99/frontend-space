@@ -4,15 +4,6 @@ body.Crew {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-body.space {
-    height: 96vh;
-    background-image: url('assets/crew/background-crew-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
 .main {
     display: flex;
     flex-direction: column;
@@ -245,6 +236,65 @@ background-color: white;
 
 
 
-@media screen and (min-width: 768px) {
+@media(max-width: 768px){
+    body.Crew{
+    background-image:url('assets/crew/background-crew-tablet.jpg');
+    }
+
+.linie{ 
+        display: none;}
+.meniu span{
+    display: none;
+}  
+.layout2{
+    margin-top: 6.25rem;
+    flex-direction: column;
+    padding-left: 1%;
+}
+.left{
+    margin-left: 5px;
+}
+.meniu a{
+    font-size: 13px;
+}
+.meniu li{
+    margin-left: 3.1rem;
+    margin-top: 1.56rem;
+}
+.meniu{
+    
+    margin-top:0;
+    margin-left: 20%;
+    width: 70%;
+}
+.navbar_container{
+    /* justify-content:flex-start;  */
+    width: 100vw;
+    
+}
+.logo{
+ margin-left: 1%; 
+    margin-top: 2%;
+}
+.left.p1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+.right{
+margin-top: 21.8rem;
+margin-left: 19.5rem;
+border-radius: 50%;
+width: 9.37rem;
+height: 9.37rem;
 
 }
+.button a{
+
+margin-right: 7.5rem;
+margin-bottom: 7.5rem;
+}
+
+}
+
+

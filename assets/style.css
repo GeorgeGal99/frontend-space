@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
+
 body {
     height: 100vh;
     background-image: url('home/background-home-desktop.jpg');
@@ -552,7 +549,7 @@ div.layout1 .left {
         font-size: 16px;
     }
     .meniu li{
-        margin-left: 3.5rem;
+        margin-left: 3.1rem;
         margin-top: 1.56rem;
     }
     .meniu{
