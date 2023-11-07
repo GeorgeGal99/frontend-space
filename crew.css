@@ -10,8 +10,7 @@ body.Crew {
 }
 .navbar_container {
 
-    height: 50px;
-
+    height: 3.125rem;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -25,22 +24,22 @@ body.Crew {
 }
 
 .logo {
-    margin-top: 50px;
-    padding-left: 30px;
+    margin-top: 3.125rem;
+    padding-left: 1.875rem;
 }
 .linie {
-    width: 500px;
-    height: 30px;
-    max-width: 600px;
-    margin-left: 200px;
-    margin-top: 50px;
+    width: 31.25rem;
+    height: 1.875rem;
+    max-width: 37.5rem;
+    margin-left: 12.5rem;
+    margin-top: 3.125rem;
     z-index: 2;
 }
 
 .linie hr {
-    margin-left: 30px;
+    margin-left: 1.875rem;
     overflow: visible;
-    width: 500px;
+    width: 31.25rem;
     height: 1px;
     opacity: 0.2515;
     background: #FFF; 
@@ -48,8 +47,8 @@ body.Crew {
 }
 .meniu {
     z-index: 1;
-    margin-top: 50px;
-    height: 80px;
+    margin-top: 2%;
+    height: 5rem;
     float: right;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
@@ -58,11 +57,11 @@ body.Crew {
 
 .meniu li {
     float: left;
-    margin-left: 190px;
+    margin-left: 11.875rem;
 }
 
 .meniu ul {
-    margin-top: 15px;
+    margin-top: 1.5%;
     list-style: none;
 
 }
@@ -75,13 +74,13 @@ body.Crew {
 
 .meniu div:hover {
 
-    height: 25px;
+    height: 1.5625rem;
     border-bottom: 1px solid orange;
 }
 
 
 .layout2 {
-    margin-top: 120px;
+    margin-top: 5%;
     display: flex;
 
 }
@@ -91,11 +90,11 @@ body.Crew {
 }
 
 .layout2 .left {
-     width: 300px; 
-    margin-left: 300px;
+     width: 18.75rem; 
+    margin-left: 18.75rem;
     display: flex; 
-    margin-top: 300px;
-     height: 412px; 
+    margin-top: 15%;
+     height: 25.75rem; 
     flex: shrink 0;
     flex-direction: column;
     align-items:start;
@@ -105,45 +104,45 @@ body.Crew {
 }
 
 .layout2 .right {
-    width: 600px;
-    height: 630px; 
-    margin-left: 500px; 
+    width: 37.5rem;
+    height: 39.375rem; 
+    margin-left: 20%; 
 
 }
 .photo2 {
     background-image: url('assets/crew/image-douglas-hurley.png');
     background-repeat: no-repeat;
-     margin-top: 130px; 
-     margin-left: 80px; 
-     width: 568.072px;  
-      height: 712px; 
+     margin-top: 20%; 
+     margin-left: 5rem; 
+     width: 35.504rem;  
+      height: 44.5rem; 
     flex-shrink: 0;
 }
 .photo3 {
     background-image: url('assets/crew/image-mark-shuttleworth.webp');
     background-repeat: no-repeat;
-     margin-top: 130px; 
-     margin-left: 80px; 
-     width: 568.072px;  
-      height: 712px; 
+     margin-top: 8.125rem; 
+     margin-left: 5rem; 
+     width: 35.5045rem;  
+      height: 44.5rem; 
     flex-shrink: 0;
 }
 .photo4 {
      background-image: url('assets/crew/image-victor-glover.webp');
      background-repeat: no-repeat;
-     margin-top: 130px; 
-     margin-left: 80px; 
-     width: 568.072px;  
-      height: 712px; 
+     margin-top: 8.125rem; 
+     margin-left: 5rem; 
+     width: 35.5045rem;  
+      height: 44.5rem; 
      flex-shrink: 0;
 }
 .photo5 {
      background-image: url('assets/crew/image-anousheh-ansari.webp');
      background-repeat: no-repeat;
-     margin-top: 130px; 
-     margin-left: 80px; 
-     width: 552px;
-     height: 858px;
+     margin-top: 8.125rem; 
+     margin-left: 5rem; 
+     width: 34.5rem;
+     height: 53.625rem;
      flex-shrink: 0;
 }
 
@@ -168,20 +167,20 @@ line-height: normal;
 text-transform: uppercase;
 }
 .p3{ 
-width: 420px;
+width: 26.25rem;
 color: #D0D6F9;
 font-family: Barlow;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; 
+line-height: 2rem; 
 
 }
 .p4 {
     color: #FFF;
     font-family: Bellefair;
     font-size: 56px;
-    width: 800px;
+    width: 50rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -204,21 +203,20 @@ text-transform: uppercase;
 }
     .button a { 
     text-decoration: none; 
-    /* align-items:start;    */
     display: block;
     height: 100%;
     width: 100%;
-    text-indent: -900px;
+    text-indent: -43.75rem;
     color: white;
 
 }
 
     .button li{ 
     display: inline-block;
-    height: 15px;
-    width: 15px;
-    margin-top: 2px;
-    margin-left: 15px;
+    height: 0.9375rem;
+    width: 0.9375rem;
+    margin-top: 1%;
+    margin-left: 0.9375rem;
     background-color: #646464;
     border: none;
     border-radius: 50%;
@@ -230,7 +228,7 @@ text-transform: uppercase;
 background-color: white; 
 }
     .button { 
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 

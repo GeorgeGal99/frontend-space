@@ -140,7 +140,7 @@ body {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     background-color: black;
     color: rgb(158, 18, 18);
     padding: 0;
@@ -155,7 +155,7 @@ body {
     align-items: center;
     max-width: 28.125rem;
     padding-left: 5%;
-    margin-top: 10%;
+    margin-top: 15%;
 
 }
 
