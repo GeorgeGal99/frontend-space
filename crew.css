@@ -80,7 +80,7 @@ body.Crew {
 
 
 .layout2 {
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
 
 }
@@ -93,8 +93,8 @@ body.Crew {
      width: 18.75rem; 
     margin-left: 18.75rem;
     display: flex; 
-    margin-top: 15%;
-     height: 25.75rem; 
+    margin-top: 12%;
+     height: 24.75rem; 
     flex: shrink 0;
     flex-direction: column;
     align-items:start;
@@ -112,7 +112,7 @@ body.Crew {
 .photo2 {
     background-image: url('assets/crew/image-douglas-hurley.png');
     background-repeat: no-repeat;
-     margin-top: 20%; 
+     margin-top: 1%; 
      margin-left: 5rem; 
      width: 35.504rem;  
       height: 44.5rem; 
@@ -148,6 +148,7 @@ body.Crew {
 
 
 .p1{ 
+    margin:4%;
     color: #FFF;
     font-family: Bellefair;
     font-size: 32px;
@@ -158,6 +159,7 @@ body.Crew {
     opacity: 0.5042;
 }
 .p2{ 
+    margin: 5%;
     color: #FFF;
 font-family: Bellefair;
 font-size: 56px;
@@ -167,6 +169,7 @@ line-height: normal;
 text-transform: uppercase;
 }
 .p3{ 
+ margin: 3%;   
 width: 26.25rem;
 color: #D0D6F9;
 font-family: Barlow;
@@ -188,15 +191,19 @@ line-height: 2rem;
     
 }
     .p0{ 
+    margin-top: 5%;
+    margin-left: 15%;
     color: #FFF;
-font-family: Barlow Condensed;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 4.725px;
-text-transform: uppercase;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
 }
+
+
 .nav2 { 
     margin-top: 50px;
 
@@ -230,8 +237,6 @@ background-color: white;
     .button { 
     padding: 0.625rem;
 }
-
-
 
 
 @media(max-width: 900px) {
