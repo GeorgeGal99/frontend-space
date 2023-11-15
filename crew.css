@@ -433,7 +433,6 @@ body.Crew {
 
     .meniu {
         width: 100px;
-        background-color: red;
         display: none;
     }
 
@@ -448,7 +447,7 @@ body.Crew {
         margin-top: 5%;
         margin: 10px 25px 0 0;
         width: 30px;
-        height: 1px;
+        height: 3px;
         color: #ffffff;
         gap: 5%;
     }
