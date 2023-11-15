@@ -455,7 +455,7 @@ body.Crew {
 
     .photo2 {
         margin-top: 7%;
-        margin-left: 15%;
+        margin-left: 40%;
         display: flex;
         width: 300px;
         height: 250px;
@@ -468,7 +468,7 @@ body.Crew {
     }
 
     .left {
-/* flex-direction: column-reverse; */
+
         display: flex;
         height: auto;
         margin-left: 90px;
@@ -525,7 +525,7 @@ body.Crew {
     }
 
     .text_paragraf {
-order: 2;
+    order: 2;
 
     }
 
