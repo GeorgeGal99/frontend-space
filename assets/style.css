@@ -509,7 +509,6 @@ transform: scale(1.2);
     body {
         background-image: url('home/background-home-tablet.jpg');
     }
-
     .linie {
         display: none;
     }
