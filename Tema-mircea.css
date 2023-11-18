@@ -40,4 +40,14 @@ img {
     padding: 15px;
     border-radius: 5px;
     width: 100%;
+    margin-top: 10px;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+
+}
+.subscribe form input {
+    padding: 15px;
+    border-radius: 5px;
 }
