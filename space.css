@@ -237,9 +237,12 @@ body {
 .launch_mobile {
     display: none;
 }
-.lauch_descktop {
+.lauch_desktop {
 display: block;
 }
+ span {
+    color: gray;
+ }
 
 
 @media (max-width: 900px) {
@@ -258,20 +261,23 @@ display: block;
         display: none;
     }
     .meniu {
-        height: 80px;
+        display: flex;
+        height: 70px;
+        margin-inline-start: auto;
+        width: 450px;
     }
     .meniu a {
         display: flex;
-        font-size: 18px;
-        width:auto;
+        font-size: 15px;
+        width:80px;
         flex-direction: row;
-    
-
+        gap: 3px;
     }
     .meniu li {
         display: flex;
-        margin-left: 100px;
-        float: right;
+        align-items: flex-start;
+        margin-left: 5px;
+        margin: 10px;
     }
     .titlu {
         display: flex;
@@ -303,7 +309,7 @@ display: block;
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        margin-top: 100px;
+        margin-top: 3%;
         margin-left: 155px;
         gap: 0%;
         order: 2;
@@ -316,19 +322,117 @@ display: block;
     }
     .text {
     margin-top: 1%;
+    margin-left: 140px;
     }
     .text h1 {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
 
     }
+    .text h2 {
+       display: flex; 
+       justify-content: center;
+       margin-top: 3%; 
+       margin-bottom: 3%;
+    }
+p {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1px;
 
+}
+    
     .launch_mobile {
         display:block;
     }
-    .lauch_descktop {
+    .lauch_desktop {
     display: none;
     }
+     span {
+        color: gray;
+     }
+
+}
+@media(max-width :375px) {
+
+    .navbar_container {
+        display: flex;
+    
+
+    }
+
+    .logo {
+        margin: 15px 0 0 0px;
+        padding: 3%;
+    }
+
+    .meniu {
+        width: 100px;
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        margin-left: 62%;
+
+    }
+
+    .liniuta {
+        display: flex;
+        background-color: #FFF;
+        margin-top: 5%;
+        margin: 10px 25px 0 0;
+        width: 30px;
+        height: 3px;
+        color: #ffffff;
+        gap: 5%;
+    }
+    h5 {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        
+
+    }
+    .titlu {
+        max-width: fit-content;
+        margin-top: 3%;
+        margin-left: 21%;
+    
+    }
+    .button {
+    margin-left: 0; 
+    }
+    .button1 {
+        width: 40px;
+        height: 40px;
+    
+    }
+    span{
+        color: gray;
+    }
+
+    .text h1 {
+        color: #D0D6F9;
+        font-family: Barlow Condensed;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;        line-height: normal;
+        letter-spacing: 2.362px;
+        margin-left: 0;
+    }
+    .text {
+      padding-left: 0;
+     
+    }
+    
+    
+    
+
+
+
+
+
 
 
 
