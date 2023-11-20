@@ -12,6 +12,7 @@ body {
     display: flex;
     padding: 20px;
     border-radius: 20px;
+    justify-content: space-between;
 
 }
 .subscribe-left,.subscribe-right {
@@ -50,4 +51,30 @@ img {
 .subscribe form input {
     padding: 15px;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width:400px) {
+
+.subscribe {
+    justify-content: flex-end;
+    height: 100%;
+}
+body {
+   display: flex;
+    height: 100vh;
+}
+.subscribe-left,.subscribe-right {
+    flex: none;
+}
+
+
+
+
+
+
+
+
+
+    
 }
