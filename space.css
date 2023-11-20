@@ -234,7 +234,12 @@ body {
     width: 50%;
 }
 
-
+.launch_mobile {
+    display: none;
+}
+.lauch_descktop {
+display: block;
+}
 
 
 @media (max-width: 900px) {
@@ -275,21 +280,23 @@ body {
     }
     .content{
         height: 900px;
+        flex-direction: column;
     }
     .content_left {
         display: flex;
-        margin-top: 90%;
-        margin-left: -6%;
+        order: 3;
     }
     .imagine1 {
         display: flex;
-        width: 900px;
-
+        order: 1;
+        width:100%;
+        height: auto;
+        justify-content: center;
     }
-    .img {
+    img {
         display: flex;
-        width: 900px;
-        flex-shrink: 0;
+        width: 100%;
+    
     }
      
     .button {
@@ -299,7 +306,7 @@ body {
         margin-top: 100px;
         margin-left: 155px;
         gap: 0%;
-
+        order: 2;
     }
     .button1 {
         width: 50px;
@@ -312,12 +319,16 @@ body {
     }
     .text h1 {
         display: flex;
-        margin-top: 180px;
         justify-content: flex-start;
 
     }
 
-
+    .launch_mobile {
+        display:block;
+    }
+    .lauch_descktop {
+    display: none;
+    }
 
 
 
