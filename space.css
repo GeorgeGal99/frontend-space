@@ -108,6 +108,7 @@ body {
 }
 
 
+
 .button a {
     text-decoration: none;
     font-size: 28px;
@@ -245,7 +246,7 @@ display: block;
  }
 
 
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
 
 
     body {
@@ -354,6 +355,9 @@ p {
 
 }
 @media(max-width :375px) {
+    body {
+        background-size: cover;
+    }
 
     .navbar_container {
         display: flex;
@@ -369,6 +373,9 @@ p {
     .meniu {
         width: 100px;
         display: none;
+    }
+    .content {
+       height: 85vh; 
     }
 
     .burger_menu {
@@ -391,6 +398,7 @@ p {
         display: flex;
         flex-direction: row;
         font-size: 15px;
+        margin-top: 5%;
         
 
     }
@@ -420,20 +428,42 @@ p {
         font-weight: 400;        line-height: normal;
         letter-spacing: 2.362px;
         margin-left: 0;
+        margin-top: 25px;
+        width: 375px;
+    
     }
     .text {
-      padding-left: 0;
-     
+     padding-left: 0;
+      margin-left: 0; 
+      width: 375px;
+    }
+    .text h2{
+       
+        color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+width: 375px;
+    }
+    .text p {
+        color: #D0D6F9;
+        display: flex;
+text-align:center;
+font-family: Barlow;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+width: 330px; 
+word-spacing: 3px;
+    }
+    img {
+        width: 375px;
     }
     
-    
-    
 
-
-
-
-
-
-
-
-}
+} 
