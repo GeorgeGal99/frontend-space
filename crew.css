@@ -1,4 +1,4 @@
-body.Crew {
+.Crew {
     height: 100vh;
     background-image: url('assets/crew/background-crew-desktop.jpg');
     background-size: cover;
@@ -260,15 +260,16 @@ body.Crew {
 }
 
 
-@media(max-width: 900px) {
+@media screen and (max-width: 900px) {
 
 
-    body {
+    .Crew {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         background-image: url('assets/crew/background-crew-tablet.jpg');
         background-size: cover;
+        height: auto;
     }
 
     .linie {
@@ -282,7 +283,6 @@ body.Crew {
 
     .layout2 {
         width: 900px;
-        height: 650px;
         flex-direction: column;
         display: flex;
     }
@@ -337,7 +337,8 @@ body.Crew {
     }
 
     .p1 {
-        margin: 0;
+        margin-top: 0;
+        margin-left: 82%;
         color: #FFF;
         text-align: start;
         font-family: Bellefair;
@@ -350,7 +351,7 @@ body.Crew {
     }
 
     .p2 {
-        margin: 0;
+        margin-left: 65%;
         width: 21.87rem;
         color: #FFF;
         justify-content: center;
@@ -365,12 +366,10 @@ body.Crew {
     }
 
     .p3 {
-        margin: 0;
+        display: flex;
+        margin-left: 55%;
         width: 22.5rem;
         color: #D0D6F9;
-        /* text-align: center; */
-
-        justify-content: flex-end;
         flex-wrap: nowrap;
         font-family: Barlow;
         font-size: 12px;
@@ -383,42 +382,48 @@ body.Crew {
 
         display: flex;
         width: 446px;
-        height: 560px;
+        margin: 0;
+        height: auto;
+
 
     }
 
     .left {
-        margin-top: 2%;
+        margin-top: 0;
         margin-left: 1%;
         display: flex;
-        align-items: center;
         width: 100%;
+        height: auto;
 
     }
 
-    .button a {
+    .button {
 
-        margin-right: 7.5rem;
+        margin-left: 280px;
 
     }
 
 
     .photo2 {
         display: flex;
-        margin-left: 30%;
-        flex-shrink: 0;
+        margin-left: 65%;
         height: 300px;
         background-size: 50%;
         width: 456px;
-        flex-shrink: 0;
+        margin-bottom: 0;
+    
+    
 
+    }
+    span {
+        color: #646464;
     }
 
 
 
 }
 
-@media(max-width :375px) {
+@media screen and (max-width :375px) {
 
     .navbar_container {
         display: flex;
@@ -524,7 +529,7 @@ body.Crew {
     }
 
     .text_paragraf {
-    order: 2;
+        order: 2;
 
     }
 
