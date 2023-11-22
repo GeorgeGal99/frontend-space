@@ -355,7 +355,6 @@
         width: 21.87rem;
         color: #FFF;
         justify-content: center;
-        /* text-align:center; */
         flex-wrap: nowrap;
         font-family: Bellefair;
         font-size: 30px;
@@ -424,10 +423,21 @@
 }
 
 @media screen and (max-width :375px) {
+    .Crew {
+
+        box-sizing: border-box;
+        background-image: url('assets/crew/background-crew-mobile.jpg');
+        background-size: cover;
+        height: auto;
+    }
+    .main {
+        
+        width: 375px;
+        height: auto;
+    }
 
     .navbar_container {
         display: flex;
-        justify-content: space-between;
 
     }
 
@@ -443,7 +453,7 @@
 
     .burger_menu {
         display: block;
-        margin-right: 10px;
+        margin-left: 60%;
     }
 
     .liniuta {
@@ -458,36 +468,34 @@
     }
 
     .photo2 {
-        margin-top: 7%;
-        margin-left: 40%;
+
+        margin-top: 1%;
+        margin-left: 50%;
         display: flex;
-        width: 300px;
-        height: 250px;
-        flex-shrink: 0;
+        width: 250px;
+    
     }
 
     .right {
-        width: 200px;
-        height: 300px;
+        width: 250px;
     }
 
     .left {
 
         display: flex;
-        height: auto;
-        margin-left: 90px;
+        margin-left: 10px;
         margin-top: 0;
 
     }
 
     .layout2 {
         width: 200px;
-        height: auto;
         display: flex;
         flex-direction: column-reverse;
     }
 
     .p0 {
+        margin-left: 30%;
         color: #FFF;
         font-family: Barlow Condensed;
         font-size: 16px;
@@ -496,17 +504,27 @@
         line-height: normal;
         letter-spacing: 2.7px;
         text-transform: uppercase;
-        text-align: center;
+        
     }
 
     .p1 {
         font-size: 15px;
+        margin-left: 5%;
+        padding-left: 100px;
     }
 
     .p2 {
         font-size: 20px;
-        text-align: center;
         margin-top: 5px;
+        margin-left: 0px;
+        color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
 
     }
 
@@ -514,22 +532,28 @@
         width: 300px;
         font-size: 15px;
         margin-top: 10px;
+        margin-left: 35px;
     }
 
     .button {
         display: flex;
         margin-top: 1px;
         padding-top: 1px;
+        margin-left: 90px;
+    
 
     }
 
     .nav2 {
         display: flex;
         order: 1;
+        margin-top: 0px;
     }
 
     .text_paragraf {
         order: 2;
+        margin-top: 0;
+        margin-left: 0;
 
     }
 
