@@ -93,9 +93,10 @@ body.Titan {
 }
 
 .stg .text3 {
+    margin-top: 35px;
     color: #D0D6F9;
     font-family: Barlow;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
@@ -529,6 +530,7 @@ transform: scale(1.2);
 
     .meniu a {
         font-size: 13px;
+        color:white;
     }
 
     .meniu li {
@@ -581,8 +583,8 @@ transform: scale(1.2);
 @media screen and (max-width :375px) {
  
  body {
-    background-image: url(destination/background-destination-mobile.jpg);
-    background-size: cover;
+    background-image: url("home/background-home-mobile.jpg");
+    background-size:cover;
  }
  .meniu {
     display: none;
