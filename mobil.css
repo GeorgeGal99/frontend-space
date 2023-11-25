@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(tema\ mircea.png);
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.main-side {
+    background-color: aquamarine;
+    margin: 10px;
+    border: 10px;
+    min-height: 500px;
+    padding: 30px 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.steps-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40 px 0;
+}
+ .steps-item:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+ }
+ .main-section-title {
+    font-size: 30px;
+    font-weight:bold;
+    
+ }
+
+ .card >img {
+width: 40px;
+height: 40px;
+border-radius: 100%;
+
+ }
+ .card {
+    display: flex;
+    padding: 15px;
+    border: 1px solid white ;
+    border-radius: 10px;
+ }
+ .card:hover {
+    background-color: aliceblue;
+    border: 1px;
+ }
+ .main-section-toogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(182, 127, 255);
+    margin-top: 16px;
+    padding: 10px;
+    gap: 10px;
+ }
+ .footer-section {
+    display: flex;
+    background-color: rgb(238, 156, 156);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+ }
+ .footer-btn1 {
+    border:none;
+    background: none;
+ }
+
+ .footer-btn2 {
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+ }
+
+    
