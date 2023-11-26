@@ -722,9 +722,18 @@ flex-shrink: 0;
     background-image: url("home/background-home-mobile.jpg");
     background-size:cover;
  }
+
+ body.moon {
+    background-image: url('destination/background-destination-mobile.jpg');
+    background-size: cover;
+    margin: 0;
+}
  .meniu {
     display: none;
  } 
+ .meniu1 {
+    display: none;
+ }
  
  .burger_menu {
     display: block;
@@ -785,6 +794,9 @@ margin-top: 27%;
 }
 .mybutton {
     margin-top: 70%;
+}
+.photo1 {
+    
 }
 
 
