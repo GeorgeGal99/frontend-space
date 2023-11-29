@@ -839,8 +839,12 @@ text-transform: uppercase;
     padding-left: 50px;
 }
 .photo1 {
-    margin: auto;
-    scale: 50%;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    margin-left: 17%;
+
+
 }
 
 .destination {
