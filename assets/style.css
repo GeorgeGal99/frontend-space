@@ -378,7 +378,7 @@ transform: scale(1.2);
 .nav2 button.select {
     background-color: white;
 }
-
+ /* poza Moon */
 .photo1 {
     background-image: url('destination/image-moon.webp');
     background-repeat: no-repeat;
@@ -390,6 +390,7 @@ transform: scale(1.2);
     animation: rotate-image 8s alternate-reverse infinite ;
 }
 
+/* cod imagine rotativa */
 
 @keyframes rotate-image {
 0% {
@@ -402,7 +403,7 @@ transform: scale(1.2);
 }
 
 
-
+/* poza Mars */
 .mars1 {
     background-image: url('destination/image-mars.webp');
     background-repeat: no-repeat;
@@ -414,7 +415,7 @@ transform: scale(1.2);
     animation: rotate-image 8s alternate-reverse infinite ;
 }
 
-
+ /* poza Europa */
 .europa1 {
     background-image: url('destination/image-europa.png');
     background-repeat: no-repeat;
@@ -426,6 +427,7 @@ transform: scale(1.2);
     animation: rotate-image 8s alternate-reverse infinite ;
 }
 
+/* poza Titan */
 
 .titan1 {
     background-image: url('destination/image-titan.png');
