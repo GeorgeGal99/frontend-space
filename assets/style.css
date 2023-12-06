@@ -440,7 +440,7 @@ transform: scale(1.2);
     animation: rotate-image 8s alternate-reverse infinite ;
 }
 
-
+/* linie mica dintre paragraf si text11 */
 .right .line1 {
     width: 27.75rem;
     height: 1px;
@@ -448,6 +448,7 @@ transform: scale(1.2);
     background: #383B4B;
 }
 
+/* linia Hr mare din bara de navigare */
 .line1 hr {
     border: none;
 }
