@@ -1,3 +1,4 @@
+/* acest css sunt pentru paginile ,Index+ 4 Destination */
 body {
     height: 100vh;
     background-image: url('home/background-home-desktop.jpg');
@@ -38,7 +39,7 @@ body.Titan {
     flex-direction: column;
 
 }
-
+/* bara de navigare superioara */
 .navbar_container {
 
     height: 50px;
@@ -60,7 +61,7 @@ body.Titan {
 
 }
 
-
+/* div Stanga */
 
 .stg {
     margin-top: 8%;
@@ -104,7 +105,7 @@ body.Titan {
     letter-spacing: 1px;
     word-spacing: 1px;
 }
-
+/* div Dreapta */
 .dr {
 
     margin-top: 10%;
@@ -248,7 +249,7 @@ body.Titan {
     line-height: normal;
     letter-spacing: 2.7px;
 }
-
+/*  buton Explore */
 .mybutton {
 
     color: aliceblue;
@@ -266,6 +267,7 @@ body.Titan {
     text-decoration: none;
 
 }
+/* hover buton Explore */
 .mybutton:hover{
     
 box-shadow: 0 0 10px rgba(0, 0, 0, 10);
@@ -346,7 +348,7 @@ transform: scale(1.2);
     margin-top: 3%;
 
 }
-
+/* a doua bara de navugare */
 .destination {
     margin-right: 2%;
     padding-left: 35%;
@@ -378,7 +380,7 @@ transform: scale(1.2);
 .nav2 button.select {
     background-color: white;
 }
- /* poza Moon */
+ /* poza Moon +cod animatie  imagine rotativa*/
 .photo1 {
     background-image: url('destination/image-moon.webp');
     background-repeat: no-repeat;

@@ -1,3 +1,4 @@
+/* acest css sunt pentru cele 4 pagini de Crew */
 .Crew {
     height: 100vh;
     background-image: url('assets/crew/background-crew-desktop.jpg');
@@ -10,7 +11,7 @@
     flex-direction: column;
    
 }
-
+/* bara de navigare */
 .navbar_container {
 
     height: 3.125rem;
@@ -21,6 +22,7 @@
 
 }
 
+/* burger meniu  */
 .burger_menu {
     display: none;
 
